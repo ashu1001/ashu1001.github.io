@@ -2,16 +2,6 @@
 <html lang="en">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167525453-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-167525453-1');
-  </script>
-  
   <title>Ashutosh Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="img/linkedIn.jpg" type="image/x-icon">
@@ -65,7 +55,7 @@
               Ashutosh Singh
             </h1>
             <h2 class="subtitle">
-              Data Science Enthusiast, R, Python, SQL
+              Data Enthusiast, R, Python, SQL, Tableau
             </h2>
             <p>
               <a target="_blank" href="docs/resume.pdf" class="icon has-text-light">
@@ -82,15 +72,13 @@
     <div class="container">
       <h1 class="title">About Me</h1>
       <hr />
-      <p>Hi, my name is Ashutosh. I am a current Master’s in Business Analytics Student at University of Cincinnati developing 
+      <p>Hi, my name is Ashutosh. I am a current Master’s in Business Analytics Student at the University of Cincinnati developing 
         a versatile set of technical and analytical skills in the field of Data Science. I have over 
-        2 years of experience working in the Healthcare solutions industry with expertise in analyzing 
-        large scale of clinical records data, using it to gain meaningful insights, creating dashboards 
-        and reports for Long-Term Care product users, collaborating with the product management team for 
-        product improvements, and providing recommendations to senior executives. Besides this, I have 
-        also worked in Customer Experience (CX) domain for a leading insurance company, Ameritas using my 
-        data science skills to improve customer retention for one of their major products. I have strong expertise in tools like MS SQL 
-        Server,  Python, R, Tableau, Java, JavaScript, Excel</p>
+        2 years of experience working in domains like Healthcare and Insurance industry with expertise in analyzing 
+        large scale data, creating dashboards and reports for end users, KPI tracking and collaborating with other business teams for 
+        product improvements. I have strong expertise in tools like MS SQL Server, Python, R, Tableau, Java, JavaScript, Excel. 
+        With keen analytical abilities, I find myself highly interested in the field of Business Analytics and wish to 
+        delve deeper into this field.</p>
     </div>
   </section>
   <section class="section">
@@ -148,20 +136,22 @@
           </div>
           <div class="content">
             <p>Worked for 2 Healthcare solution products building dashboards and reports for end-users, 
-              using data to drive clinical solutions and implementing new features to make user experience 
+              using data to drive clinical solutions, identifying KPIs and implementing new features to make user experience 
               better</p>
             <ul>
+              <li>Developed Nursing dashboard displaying quantitative metrics, KPIs and actionable items for 
+                the Nurses using SQL/T-SQL and Java APIs and integrated it with HighCharts in the frontend (UI/UX)</li>
+              <li>Tracked 7 KPIs in Workload, Service performance, Customer satisfaction for the Regulatory Medical System (RMS) 
+                using dashboards and reports to improve the overall medical screening process</li>  
               <li>Cleaned and Analyzed 10K+ clinical records to identify key trends in patient vitals, care plans 
                 for a Long-Term Care Product and communicated the same with the Product Management team using dashboards and reports</li>
-              <li>Developed Nursing dashboard displaying quantitative metrics, KPIs and actionable items for 
-                the Nurses using SQL/T-SQL and Java APIs and integrated it with HighCharts in the frontend</li>
               <li>Designed Stored Procedures, triggers, APIs and optimized the existing ones to speed up the medical screening process for 
                 the air traffic license applicants improving overall efficiency by 30% (15 min to 12 min)</li>
               <li>Reduced the time required for billing and EMR report generation by 25% by consolidating all the existing business user 
                 reports into a single user interface 
               </li>
-              <li>Researched and Developed customer feedback system (Likert Scale) for an existing product to assist the business team with 
-                customer satisfaction metrics and highlight key improvements in the medical screening process</li>
+              <li>Collaborated with Remote Patient Monitoring (RPM) team to build a Proof-of-concept technology for monitoring and measuring
+                 the activity of Dementia patients</li>
               </ul>
             <div class="tags">
               <span class="tag">Healthcare</span>
@@ -201,9 +191,9 @@
             </div>
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">Covid-19 Analysis</p>
+                <p class="title">Stock Prices Forecasting</p>
                 <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-3-modal" src="img/covid19.png">
+                  <img class="modal-trigger" data-target="project-3-modal" src="img/stock.jpg">
                 </figure>
               </article>
             </div>
@@ -234,6 +224,36 @@
                 <p class="title">PL Table Predictions</p>
                 <figure class="image is-4by3">
                   <img class="modal-trigger" data-target="project-6-modal" src="img/PL.jpg">
+                </figure>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-12">
+          <div class="tile">
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title">Click-Through Prediction</p>
+                <figure class="image is-4by3">
+                  <img class="modal-trigger" data-target="project-7-modal" src="img/exped.jpg">
+                </figure>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title">Cost Minimization</p>
+                <figure class="image is-4by3">
+                  <img class="modal-trigger" data-target="project-8-modal" src="img/Drone-Delivery.jpg">
+                </figure>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title">The Movie Dashboard</p>
+                <figure class="image is-4by3">
+                  <img class="modal-trigger" data-target="project-9-modal" src="img/tmdb.png">
                 </figure>
               </article>
             </div>
@@ -336,8 +356,8 @@
       </header>
       <section class="modal-card-body">
 
-        <div id="project-1-modal">
-          <figure class="image is-4by3">
+        <div id="project-1-modal-carousel">
+          <figure class="image is-4by3 carousel-cell">
             <img src="img/nyc.jpg">
           </figure>
         </div>
@@ -374,8 +394,8 @@
       </header>
       <section class="modal-card-body">
 
-        <div id="project-2-modal">
-          <figure class="image is-4by3">
+        <div id="project-2-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
             <img src="img/imageclass.jpg">
           </figure>
         </div>
@@ -383,7 +403,7 @@
         <div class="content">
 
           <p>Performed classification of 60,000+ images of 10 different objects using models 
-            like 3-layered CNN, VGG-16, Gradient Boosting, and achieved 74% out-of-sample accuracy.</p>
+            like 3-layered CNN, VGG-16, Gradient Boosting, SVM, Logistic and compared their performance.</p>
           <br>
           <p>The link for this project can be found <a target="_blank" href="https://github.com/ashu1001/imageClassification">here</a></p>
           <div class="tags">
@@ -405,27 +425,26 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">Covid-19 Analyis: Statistics,Factors & Containment</p>
+        <p class="modal-card-title">S&P 500 Time Series Forecasting</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
-        <div id="project-3-modal">
-          <figure class="image is-4by3">
-            <img src="img/covid19.png">
+        <div id="project-3-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/stock.jpg">
           </figure>
         </div>
 
         <div class="content">
-          <p>Used Covid-19 and World Development Indicators(WDI) data to gain insights about the recent 
-            pandemic outbreak in some countries. Built regression model to predict Death per capita for these 
-            countries using stats available from Worldometer and WDI.</p>
+          <p>Built a RShiny application displaying the forecasted prices of stock indexes like Amazon, Google etc.
+             by using ARIMA method on historical stock prices data (S&P 500).</p>
           <br>
-          <p>The link for this project can be found <a target="_blank" href="https://github.com/ashu1001/Covid19Analysis">here</a></p>
+          <p>The link for the application can be found <a target="_blank" href="https://ashutoshsingh.shinyapps.io/spforecasting/">here</a></p>
           <div class="tags">
-            <span class="tag">Python</span>
-            <span class="tag">Web Scraping</span>
-            <span class="tag">EDS</span>
-            <span class="tag">Regression Model</span>
+            <span class="tag">RShiny</span>
+            <span class="tag">Web Application</span>
+            <span class="tag">Time Series</span>
+            <span class="tag">Forecasting</span>
           </div>
         </div>
 
@@ -444,8 +463,8 @@
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
-        <div id="project-4-modal">
-          <figure class="image is-4by3">
+        <div id="project-4-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
             <img src="img/PhoneDashboard.png">
           </figure>
         </div>
@@ -475,8 +494,8 @@
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
-        <div id="project-5-modal">
-          <figure class="image is-4by3">
+        <div id="project-5-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
             <img src="img/sentiment.jpg">
           </figure>
         </div>
@@ -525,6 +544,104 @@
             <span class="tag">Excel</span>
             <span class="tag">Monte Carlo</span>
             <span class="tag">Soccer</span>
+          </div>
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-7-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Click-Through Prediction in Online Hotel Searches</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div id="project-7-modal">
+          <figure class="image is-4by3">
+            <img src="img/exped.jpg">
+          </figure>
+        </div>
+
+        <div class="content">
+          <p>Predicting Click-Through in online hotel search results (source: Expedia) using Traditional, Naive Bayes 
+            and Neural Network models and comparing these models performance in terms of correct classification.</p>
+          <br>
+          <p>The link for this project can be found <a target="_blank" href="https://github.com/ashu1001/Click-Through-Prediction">here</a></p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Machine Learning</span>
+            <span class="tag">Click-Through</span>
+          </div>
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+  <div id="project-8-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Cost Minimization of a Truck-Drone Delivery System</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div id="project-8-modal">
+          <figure class="image is-4by3">
+            <img src="img/Drone-Delivery.jpg">
+          </figure>
+        </div>
+
+        <div class="content">
+          <p>Formulated Mixed Integer Programming (MIP) algorithm to achieve the minimum cost associated 
+            with a Truck-Drone Delivery system for a given set of locations using Xpress-MP</p>
+          <br>
+          <p>The link for this project can be found <a target="_blank" href="https://github.com/ashu1001/optimization">here</a></p>
+          <div class="tags">
+            <span class="tag">Optimization</span>
+            <span class="tag">Integer Programming</span>
+            <span class="tag">Xpress-MP</span>
+          </div>
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+  <div id="project-9-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">The Movie Dashboard (TMDB 5000 Movies)</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div id="project-9-modal">
+          <figure class="image is-4by3">
+            <img src="img/tmdb.png">
+          </figure>
+        </div>
+
+        <div class="content">
+          <p>Created Tableau dashboard displaying most famous movies in each era (from 1970s to 2010s). 
+            The movies were ranked on the basis of revenue, popularity and ratings.</p>
+          <br>
+          <p>The link for this project can be found <a target="_blank"
+             href="https://public.tableau.com/profile/ashutosh.singh3095#!/vizhome/TheMovieDashBoard/MoviesDashboard">here</a></p>
+          <div class="tags">
+            <span class="tag">Tableau</span>
+            <span class="tag">Excel</span>
+            <span class="tag">Python</span>
           </div>
         </div>
 
